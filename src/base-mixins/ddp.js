@@ -30,6 +30,7 @@ export function disconnect () {
 export function init (options) {
     const {
         endpoint,
+        wx,
         SocketConstructor = WebSocket,
         autoConnect,
         autoReconnect,
@@ -38,6 +39,7 @@ export function init (options) {
     this.endpoint = endpoint;
     const ddpOptions = {
         endpoint,
+        wx,
         SocketConstructor,
         autoConnect,
         autoReconnect,

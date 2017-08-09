@@ -49,7 +49,7 @@
     "sinon-chai": "^2.8.0"
   },
   "dependencies": {
-    "ddp.js": "^2.2.0",
+    "ddp.js": "hatelove85911/wxddp",
     "lodash.assign": "^4.2.0",
     "wolfy87-eventemitter": "^5.1.0"
   }
